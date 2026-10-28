@@ -1,0 +1,12 @@
+name = "tagnet-api"
+main = "worker/index.js"
+compatibility_date = "2026-10-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "tagnet-db"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+migrations_dir = "worker"
+
+[vars]
+ALLOWED_ORIGIN = "http://localhost:5173"

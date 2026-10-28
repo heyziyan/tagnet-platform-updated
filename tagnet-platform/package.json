@@ -1,0 +1,24 @@
+{
+  "name": "tagnet-platform",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "worker:dev": "wrangler dev worker/index.js",
+    "worker:deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "lucide-react": "latest"
+  },
+  "devDependencies": {
+    "wrangler": "latest"
+  }
+}
